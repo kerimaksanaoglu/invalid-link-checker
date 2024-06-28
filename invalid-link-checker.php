@@ -8,7 +8,7 @@ Author: Kerim Aksanaoğlu
 
 // CSS dosyasını yükle
 function ilc_enqueue_styles() {
-    wp_enqueue_style('ilc-style', plugin_dir_url(__FILE__) . 'css/style.css');
+    wp_enqueue_style('ilc-style', plugin_dir_url(__FILE__) . 'style.css');
 }
 add_action('admin_enqueue_scripts', 'ilc_enqueue_styles');
 
